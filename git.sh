@@ -10,7 +10,7 @@
 
 # Modified further by
 
-# @ginkgotree
+# @scotthasbrouck
 
 ###########################################
 alias gco="git checkout"
