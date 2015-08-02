@@ -1,18 +1,19 @@
 ############################################
-
-# Custom git bash aliases
-
-# from https://github.com/JangoSteve/dotfiles/tree/master/home/_.bash_profile_includes
-
-# Written by
-
-# @jangosteve
-
-# Modified further by
-
+# Handy dandy aliases
 # @scotthasbrouck
-
 ###########################################
+alias aliases="cat ~/.bash_profile_includes/git.sh"
+
+# Meteor stuffs
+
+# NPM stuffs
+alias npmi="npm install"
+alias npmis="npm install --save"
+alias npml="npm list"
+
+# git mostly aliases thanks to
+# from https://github.com/JangoSteve/dotfiles/tree/master/home/_.bash_profile_includes
+# @jangosteve
 alias gco="git checkout"
 alias gst="git status"
 alias gcm="git commit -m"
@@ -33,11 +34,9 @@ alias glo="git log"
 alias gbl="git branch -l"
 alias gbla="git branch -a"
 alias gfe="git fetch"
-alias gf="git fetch" # slightly shorter version
 alias grs="git remote -v"
 alias grh="git reset HEAD"
 alias grhh="git reset --hard HEAD"
-alias gdi="git diff"
+alias gdf="git diff"
 alias gitsum='git log --pretty=format:"* %s" --author `git config user.email`'
-alias gsu="gitsum"
-alias gtr="git log --graph --pretty=oneline --abbrev-commit"
+alias gitgraph="git log --graph --pretty=oneline --abbrev-commit"
