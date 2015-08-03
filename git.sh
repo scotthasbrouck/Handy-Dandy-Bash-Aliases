@@ -11,6 +11,7 @@ alias npmi="npm install"
 alias npmis="npm install --save"
 alias npml="npm list"
 alias npmig="npm install -g"
+aliad npmisd="npm install --save-dev"
 
 # git mostly aliases thanks to
 # from https://github.com/JangoSteve/dotfiles/tree/master/home/_.bash_profile_includes
